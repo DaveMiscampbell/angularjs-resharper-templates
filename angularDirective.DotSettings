@@ -1,0 +1,33 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Description/@EntryValue">Angular &amp;Directive</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Text/@EntryValue">(function() {&#xD;
+    'use strict';&#xD;
+&#xD;
+    // Define the directive on the module.&#xD;
+    // Inject the dependencies. &#xD;
+    // Point to the directive definition function.&#xD;
+    angular.module('app').directive('$CLASS$', [$CLASS$]);&#xD;
+    &#xD;
+    function $CLASS$ () {&#xD;
+        var directive = {&#xD;
+            link: link&#xD;
+        };&#xD;
+        return directive;&#xD;
+&#xD;
+        function link(scope, element, attrs) {&#xD;
+        }&#xD;
+    }&#xD;
+&#xD;
+})();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/CustomProperties/=FileName/@EntryIndexedValue">newDirective</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/CustomProperties/=Extension/@EntryIndexedValue">js</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=CLASS/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
