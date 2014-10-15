@@ -4,18 +4,12 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Text/@EntryValue">(function () {&#xD;
     'use strict';&#xD;
 &#xD;
-    // Controller name is handy for logging&#xD;
     var controllerId = '$CLASS$';&#xD;
 &#xD;
-    // Define the controller on the module.&#xD;
-    // Inject the dependencies. &#xD;
-    // Point to the controller definition function.&#xD;
-    angular.module('app').controller(controllerId,&#xD;
-        ['$scope', $CLASS$]);&#xD;
+    angular.module('$APP$').controller(controllerId, ['$scope', $CLASS$]);&#xD;
 &#xD;
     function $CLASS$($scope) {&#xD;
-        // Bindable properties and functions are placed on $scope.&#xD;
-        &#xD;
+                &#xD;
     }&#xD;
 })();</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Reformat/@EntryValue">True</s:Boolean>
@@ -28,4 +22,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Field/=CLASS/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Field/=CLASS/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Field/=APP/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Field/=APP/Expression/@EntryValue">constant("app")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E317AF72F0F95646B604135EFDA4D8C6/Field/=APP/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

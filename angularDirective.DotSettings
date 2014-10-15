@@ -4,10 +4,9 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Text/@EntryValue">(function() {&#xD;
     'use strict';&#xD;
 &#xD;
-    // Define the directive on the module.&#xD;
-    // Inject the dependencies. &#xD;
-    // Point to the directive definition function.&#xD;
-    angular.module('app').directive('$CLASS$', [$CLASS$]);&#xD;
+	var directiveId = '$CLASS$';&#xD;
+&#xD;
+    angular.module('$APP$').directive(directiveId, [$CLASS$]);&#xD;
     &#xD;
     function $CLASS$ () {&#xD;
         var directive = {&#xD;
@@ -30,4 +29,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=CLASS/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=CLASS/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=APP/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=APP/Expression/@EntryValue">constant("app")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC5B41D34D70344BA822CF46C7EB1CF3/Field/=APP/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

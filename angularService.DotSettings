@@ -4,16 +4,11 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Text/@EntryValue">(function () {&#xD;
     'use strict';&#xD;
 &#xD;
-    // Factory name is handy for logging&#xD;
     var serviceId = '$CLASS$';&#xD;
 &#xD;
-    // Define the factory on the module.&#xD;
-    // Inject the dependencies. &#xD;
-    // Point to the factory definition function.&#xD;
-    angular.module('app').factory(serviceId, [$CLASS$]);&#xD;
+    angular.module('$APP$').factory(serviceId, [$CLASS$]);&#xD;
 &#xD;
     function $CLASS$() {&#xD;
-        // Define the functions and properties to reveal.&#xD;
         var service = {&#xD;
             &#xD;
         };&#xD;
@@ -31,4 +26,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Field/=CLASS/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Field/=CLASS/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Field/=APP/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Field/=APP/Expression/@EntryValue">constant("app")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7C9AD87F118D5B4AAA694215742B820D/Field/=APP/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
